@@ -1,5 +1,6 @@
 import { Sequelize } from "sequelize";
 import trackModel from "../models/track.js";
+import "pg"; // <-- Add this line to force Vercel to include the 'pg' package
 import dotenv from "dotenv";
 
 //loads .env file into process.env
